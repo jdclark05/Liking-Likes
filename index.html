@@ -8,18 +8,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-       <div class="header">
+    <div class="navBar">
+        <h1>Network</h1>
+    </div>
+    <dic class="title">
+        <h2>Your Feed</h2>
+    </dic>
+    <div class="mainContainer">
+        <div class ="profileContainer">
+            <img src="images/profile_pic.jpg" alt="profile pic">
+            <a href="">Update Profile Picture</a> 
             <h1>James Clark</h1>
-            <div class="likes">
-                <h2><span id="count">0</span> likes</h2>
-                <button onclick="add()">Like</button>
+        </div>
+        <div class="tweetContainer">
+            <div class="tweet">
+                <div class="header">
+                    <h1>James Clark</h1>
+                    <div class="likes">
+                        <h2><span id="count-1">14</span> likes</h2>
+                        <button onclick="add('1')">Like</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <img src="images/Twitter-Logo.png">
+                    <h2>"Teamwork makes the dream work!"</h2>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="header">
+                    <h1>James Clark</h1>
+                    <div class="likes">
+                        <h2><span id="count-2">9</span> likes</h2>
+                        <button onclick="add('2')">Like</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <img src="images/Twitter-Logo.png">
+                    <h2>"Time for the belt exam!!"</h2>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="header">
+                    <h1>James Clark</h1>
+                    <div class="likes">
+                        <h2><span id="count-3">12</span> likes</h2>
+                        <button onclick="add('3')">Like</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <img src="images/Twitter-Logo.png">
+                    <h2>"Don't forget to validate!!"</h2>
+                </div>
             </div>
         </div>
-       <div class="footer">
-           <img src="images/Twitter-Logo.png">
-           <h2>"Team work makes the dream work!"</h2>
-       </div>
     </div>
 
 

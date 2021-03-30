@@ -2,21 +2,94 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
+body {
+    width: 100%;
+}
+
+.mainContainer{
+    justify-content: center;
+    display: flex;
+}
+
+/* Nav Bar */
+
+.navBar {
+    padding: 0 0 0 10px;
+    margin: 0 30px 0 0;
+    background-color: rgb(29 161 242);
+    color: #fff;
+    display: flex;
+    height: auto;
+}
+
+.navBar > h1 {
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+/* Title */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title > h2 {
+    font-size: 1.4rem;
+}
+
+/* Profile Info */
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    flex: 1;
     border: 2px solid dimgray;
-    width: 40%;
+}
+
+.profile-container > a {
+    margin: 10px;
+    font-style: underline;
+}
+
+.profileContainer > img {
+    margin: 10px;
+    align-items: center;
     height: 200px;
 }
 
+.profileContainer > h1 {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+
+/* Tweets */
+
+.tweetContainer {
+    margin: -30px 0 0 0;
+    align-items: flex-start;
+    flex: 2;
+}
+
+.tweet {
+    margin: 30px;
+    border: 2px solid dimgray;
+}
+
 .header {
-    margin: 15px 0 0 15px;
+    margin: 10px 0 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.1rem;
 }
  .header > h1 {
-     font-size: 2rem;
+     font-size: 1.2rem;
  }
 
 .header .footer {
@@ -32,18 +105,18 @@
 }
 
 .likes > h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 0 10px 0 10px;
 }
 
 button {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
 }
 
  .footer > img {
@@ -54,6 +127,6 @@ button {
 
  .footer > h2 {
      margin: 50px 0 0 15px;
-     font-size: 1.2rem;
+     font-size: 1rem;
      font-style: italic;
  }

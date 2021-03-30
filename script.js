@@ -1,11 +1,7 @@
 
-var count = 0;
-
-function add() {
-
-    var countElement = document.getElementById("count");
-    console.log(countElement);
-    count++;
-    countElement.innerText =  count;
+function add(num) {
+    var countElement = document.getElementById("count-" + num);
+    countElement.innerText =  parseInt(countElement.innerText) + 1;
 }
+
 
