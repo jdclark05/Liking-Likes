@@ -1,0 +1,59 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    border: 2px solid dimgray;
+    width: 40%;
+    height: 200px;
+}
+
+.header {
+    margin: 15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+ .header > h1 {
+     font-size: 2rem;
+ }
+
+.header .footer {
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    margin: 0 10px 0 -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes > h2 {
+    font-size: 1.3rem;
+    margin: 0 10px 0 10px;
+}
+
+button {
+    font-size: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+ .footer > img {
+     margin: 50px 0 0 10px;
+     width: 40px;
+     height: 40px;
+ }
+
+ .footer > h2 {
+     margin: 50px 0 0 15px;
+     font-size: 1.2rem;
+     font-style: italic;
+ }
